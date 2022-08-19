@@ -16,6 +16,11 @@ jobs:
       with:
         ssh-key: ${{ secrets.THIS_IS_PRIVATE_KEY}}
         repository: Flutter-Together/calculator_frontend
+        
+    - name: Checkout code 2
+      uses: actions/checkout@v3
+      with:
+        path: ./build/web
     
     - name: Install Flutter
       uses: subosito/flutter-action@v2
