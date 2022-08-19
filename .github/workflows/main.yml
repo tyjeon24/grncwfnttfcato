@@ -23,7 +23,7 @@ jobs:
       with:
         path: temp
     - run: ls -al
-    - run: mv -f ./temp/index.html ./build/web/
+    - run: mv -f ./temp/index.html ./
     
     - name: Install Flutter
       uses: subosito/flutter-action@v2
