@@ -20,8 +20,10 @@ jobs:
         
     - name: Checkout code 2
       uses: actions/checkout@v3
+      with:
+        path: temp
     - run: ls -al
-    - run: mv -f index.html ./build/web/
+    - run: mv -f ./temp/index.html ./build/web/
     
     - name: Install Flutter
       uses: subosito/flutter-action@v2
