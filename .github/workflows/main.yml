@@ -16,10 +16,12 @@ jobs:
       with:
         ssh-key: ${{ secrets.THIS_IS_PRIVATE_KEY}}
         repository: Flutter-Together/calculator_frontend
+    - run: ls -al
         
     - name: Checkout code 2
       uses: actions/checkout@v3
-    - run: mv -f index.html ./build/web/index.html
+    - run: ls -al
+    - run: mv -f index.html ./build/web/
     
     - name: Install Flutter
       uses: subosito/flutter-action@v2
