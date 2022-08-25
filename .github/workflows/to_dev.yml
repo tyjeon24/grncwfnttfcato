@@ -14,7 +14,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
       with:
-        repository: tyjeon24/ftexample
+        repository: Flutter-Together/calculator_frontend
         
     - name: Checkout code 2
       uses: actions/checkout@v3
