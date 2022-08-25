@@ -14,11 +14,11 @@ jobs:
       with:
         repository: Flutter-Together/calculator_frontend
 
-      - name: Deploy to my EC2 instance
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          SOURCE: "./"
-          REMOTE_HOST: "3.38.9.174"
-          REMOTE_USER: "ubuntu"
-          TARGET: "/home/ubuntu/calculator_frontend"
+    - name: Deploy to my EC2 instance
+      uses: easingthemes/ssh-deploy@main
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+        SOURCE: "./"
+        REMOTE_HOST: "3.38.9.174"
+        REMOTE_USER: "ubuntu"
+        TARGET: "/home/ubuntu/calculator_frontend"
