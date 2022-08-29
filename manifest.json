@@ -1,6 +1,6 @@
 {
-    "name": "calculator_frontend",
-    "short_name": "calculator_frontend",
+    "name": "ftexample",
+    "short_name": "ftexample",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
