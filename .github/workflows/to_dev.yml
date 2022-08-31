@@ -21,6 +21,7 @@ jobs:
       with:
         path: temp
     - run: mv -f ./temp/index.html ./web/index.html
+    - run: mv -f lib/widgets/HomePage/Desktop_HomePage.dart lib/widgets/HomePage/Desktop_Homepage.dart
     
     - name: Install Flutter
       uses: subosito/flutter-action@v2
