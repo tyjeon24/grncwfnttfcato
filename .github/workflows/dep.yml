@@ -28,11 +28,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-      with:
-        repository: tyjeon24/rktmen
-
     - name: Deploy to my EC2 instance
       uses: easingthemes/ssh-deploy@main
       env:
