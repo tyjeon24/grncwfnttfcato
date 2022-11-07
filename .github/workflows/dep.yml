@@ -31,7 +31,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
       with:
-        repository: Flutter-Together/calculator_frontend
+        repository: tyjeon24/rktmen
 
     - name: Deploy to my EC2 instance
       uses: easingthemes/ssh-deploy@main
