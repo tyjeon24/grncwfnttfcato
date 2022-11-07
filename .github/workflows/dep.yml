@@ -22,6 +22,8 @@ jobs:
     
     - run: flutter pub get
     - run: flutter build web
+    - run: ls -al
+    - run: cd rktmen && ls -al
         
   deploy:
     name: Push to EC2 Instance
