@@ -24,13 +24,8 @@ jobs:
     - run: flutter build web
     - run: ls -al
     - run: cd rktmen && ls -al
-        
-  deploy:
-    name: Push to EC2 Instance
-    runs-on: ubuntu-latest
 
-    steps:
-    - name: Deploy to my EC2 instance
+    - name: Push to EC2 Instance - Deploy to my EC2 instance
       uses: easingthemes/ssh-deploy@main
       env:
         SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
