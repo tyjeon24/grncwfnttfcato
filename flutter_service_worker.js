@@ -42,8 +42,8 @@ const RESOURCES = {
 "assets/assets/txt/HoldingTax_description.txt": "dd1f7922ffccd98480eed6e310ddb970",
 "assets/assets/txt/HoldingTax_precaution.txt": "3ae2978170febf9a110bf6c057e05c26",
 "assets/NOTICES": "2f60d974f03c04fdad1a35d374cc832f",
-"index.html": "40cb2332f172ff4a2795b582933e460b",
-"/": "40cb2332f172ff4a2795b582933e460b",
+"index.html": "1b70318f0a93c50112d8f57ebdc83a98",
+"/": "1b70318f0a93c50112d8f57ebdc83a98",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "12385392cb97fc7e83d60845948177b1"
 };
